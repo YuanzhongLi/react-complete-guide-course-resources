@@ -7,6 +7,10 @@
     "airbnb",
     "airbnb/hooks"
   ],
+  "plugins": [
+    "react",
+    "spellcheck"
+  ],
   "settings": {
     "react": {
       "version": "detect"
@@ -28,6 +32,24 @@
     "react/react-in-jsx-scope": "off",
     "import/prefer-default-export": "off",
     "react/jsx-one-expression-per-line": "off",
-    "jsx-a11y/alt-text": "off"
+    "jsx-a11y/alt-text": "off",
+    "spellcheck/spell-checker": [
+      "warn",
+      {
+        "comments": true,
+        "strings": true,
+        "identifiers": true,
+        "lang": "en_US",
+        "skipWords": [
+          "jsx",
+          "eslint",
+          "npm",
+          "th",
+          "tbody",
+          "thead",
+          "formatter"
+        ]
+      }
+    ]
   }
 }
