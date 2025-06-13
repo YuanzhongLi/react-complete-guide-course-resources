@@ -34,6 +34,7 @@
     "react/jsx-one-expression-per-line": "off",
     "jsx-a11y/alt-text": "off",
     "jsx-a11y/label-has-associated-control": "off",
+    "import/no-extraneous-dependencies": "off",
     "spellcheck/spell-checker": [
       "warn",
       {
@@ -48,7 +49,7 @@
           "th",
           "tbody",
           "thead",
-          "formatter"
+          "Pacifico"
         ]
       }
     ]
