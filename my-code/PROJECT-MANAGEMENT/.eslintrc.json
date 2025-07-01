@@ -35,6 +35,7 @@
     "jsx-a11y/alt-text": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "import/no-extraneous-dependencies": "off",
+    "react/jsx-props-no-spreading": "off",
     "spellcheck/spell-checker": [
       "warn",
       {
@@ -50,7 +51,8 @@
           "tbody",
           "thead",
           "Pacifico",
-          "mb"
+          "mb",
+          "textarea"
         ]
       }
     ]
