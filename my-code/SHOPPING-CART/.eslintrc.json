@@ -36,6 +36,7 @@
     "jsx-a11y/label-has-associated-control": "off",
     "import/no-extraneous-dependencies": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-no-bind": "off",
     "spellcheck/spell-checker": [
       "warn",
       {
